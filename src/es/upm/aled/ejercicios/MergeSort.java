@@ -7,7 +7,7 @@ public class MergeSort {
 		
 		//Caso base
 		if(list.length==1) {
-			return list;
+			return list;//devuelve el array si, división tras división, su longitud es 1
 		}
 		
 		//Paso recursivo

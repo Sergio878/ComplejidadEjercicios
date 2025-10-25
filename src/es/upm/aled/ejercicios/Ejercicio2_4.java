@@ -30,7 +30,7 @@ public class Ejercicio2_4 {
 	}
 	public static int buscar1(int[] buscados, int inicio, int fin) {
 		int encontrados=0;
-		ordenaOptimo(buscados);
+		ordenaOptimo(buscados);//Complejidad n*logn
 		for (int unNumero=inicio; unNumero <= fin; unNumero++)//Complejidad m
 			if (busquedaBinaria(buscados, unNumero) != -1)//Complejidad logn
 			encontrados++;
